@@ -30,15 +30,15 @@ import (
 	"time"
 
 	"golang.org/x/net/http2"
-	"google.golang.org/grpc/backoff"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/credentials"
-	internalbackoff "google.golang.org/grpc/internal/backoff"
-	"google.golang.org/grpc/internal/transport"
-	"google.golang.org/grpc/keepalive"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/resolver/manual"
-	"google.golang.org/grpc/testdata"
+	"github.com/fgiudici/grpc-go/backoff"
+	"github.com/fgiudici/grpc-go/connectivity"
+	"github.com/fgiudici/grpc-go/credentials"
+	internalbackoff "github.com/fgiudici/grpc-go/internal/backoff"
+	"github.com/fgiudici/grpc-go/internal/transport"
+	"github.com/fgiudici/grpc-go/keepalive"
+	"github.com/fgiudici/grpc-go/resolver"
+	"github.com/fgiudici/grpc-go/resolver/manual"
+	"github.com/fgiudici/grpc-go/testdata"
 )
 
 func (s) TestDialWithTimeout(t *testing.T) {

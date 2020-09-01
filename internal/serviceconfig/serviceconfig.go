@@ -23,9 +23,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/grpclog"
-	externalserviceconfig "google.golang.org/grpc/serviceconfig"
+	"github.com/fgiudici/grpc-go/balancer"
+	"github.com/fgiudici/grpc-go/grpclog"
+	externalserviceconfig "github.com/fgiudici/grpc-go/serviceconfig"
 )
 
 var logger = grpclog.Component("core")

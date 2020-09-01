@@ -1,13 +1,13 @@
-module google.golang.org/grpc/security/advancedtls
+module github.com/fgiudici/grpc-go/security/advancedtls
 
 go 1.13
 
 require (
 	github.com/google/go-cmp v0.5.1
-	google.golang.org/grpc v1.31.0
-	google.golang.org/grpc/examples v0.0.0-20200731180010-8bec2f5d898f
+	github.com/fgiudici/grpc-go v1.31.0
+	github.com/fgiudici/grpc-go/examples v0.0.0-20200731180010-8bec2f5d898f
 )
 
-replace google.golang.org/grpc => ../../
+replace github.com/fgiudici/grpc-go => ../../
 
-replace google.golang.org/grpc/examples => ../../examples
+replace github.com/fgiudici/grpc-go/examples => ../../examples

@@ -22,7 +22,7 @@ import (
 	"context"
 	"testing"
 
-	"google.golang.org/grpc/internal/testutils"
+	"github.com/fgiudici/grpc-go/internal/testutils"
 )
 
 type clusterUpdateErr struct {

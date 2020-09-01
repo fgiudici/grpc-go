@@ -27,10 +27,10 @@ import (
 	"net"
 	"time"
 
-	"google.golang.org/grpc"
-	pb "google.golang.org/grpc/examples/features/proto/echo"
-	"google.golang.org/grpc/health"
-	healthpb "google.golang.org/grpc/health/grpc_health_v1"
+	"github.com/fgiudici/grpc-go"
+	pb "github.com/fgiudici/grpc-go/examples/features/proto/echo"
+	"github.com/fgiudici/grpc-go/health"
+	healthpb "github.com/fgiudici/grpc-go/health/grpc_health_v1"
 )
 
 var (

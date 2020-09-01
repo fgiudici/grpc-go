@@ -24,9 +24,9 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/internal/buffer"
-	"google.golang.org/grpc/internal/grpclog"
+	"github.com/fgiudici/grpc-go"
+	"github.com/fgiudici/grpc-go/internal/buffer"
+	"github.com/fgiudici/grpc-go/internal/grpclog"
 )
 
 // ErrResourceTypeUnsupported is an error used to indicate an unsupported xDS

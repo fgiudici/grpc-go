@@ -23,8 +23,8 @@ import (
 	corepb "github.com/envoyproxy/go-control-plane/envoy/api/v2/core"
 	"github.com/golang/protobuf/proto"
 	structpb "github.com/golang/protobuf/ptypes/struct"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/xds/internal/balancer/lrs"
+	"github.com/fgiudici/grpc-go"
+	"github.com/fgiudici/grpc-go/xds/internal/balancer/lrs"
 )
 
 const nodeMetadataHostnameKey = "PROXYLESS_CLIENT_HOSTNAME"

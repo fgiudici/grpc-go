@@ -30,15 +30,15 @@ import (
 	v3corepb "github.com/envoyproxy/go-control-plane/envoy/config/core/v3"
 	"github.com/golang/protobuf/proto"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/internal/backoff"
-	"google.golang.org/grpc/internal/buffer"
-	"google.golang.org/grpc/internal/grpclog"
-	"google.golang.org/grpc/internal/grpcsync"
-	"google.golang.org/grpc/keepalive"
-	"google.golang.org/grpc/xds/internal"
-	"google.golang.org/grpc/xds/internal/client/bootstrap"
-	"google.golang.org/grpc/xds/internal/version"
+	"github.com/fgiudici/grpc-go"
+	"github.com/fgiudici/grpc-go/internal/backoff"
+	"github.com/fgiudici/grpc-go/internal/buffer"
+	"github.com/fgiudici/grpc-go/internal/grpclog"
+	"github.com/fgiudici/grpc-go/internal/grpcsync"
+	"github.com/fgiudici/grpc-go/keepalive"
+	"github.com/fgiudici/grpc-go/xds/internal"
+	"github.com/fgiudici/grpc-go/xds/internal/client/bootstrap"
+	"github.com/fgiudici/grpc-go/xds/internal/version"
 )
 
 var (

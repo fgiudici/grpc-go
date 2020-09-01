@@ -19,8 +19,8 @@
 package balancergroup
 
 import (
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/xds/internal"
+	"github.com/fgiudici/grpc-go/balancer"
+	"github.com/fgiudici/grpc-go/xds/internal"
 )
 
 // BalancerStateAggregator aggregates sub-picker and connectivity states into a

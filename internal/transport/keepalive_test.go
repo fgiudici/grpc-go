@@ -30,8 +30,8 @@ import (
 	"time"
 
 	"golang.org/x/net/http2"
-	"google.golang.org/grpc/internal/syscall"
-	"google.golang.org/grpc/keepalive"
+	"github.com/fgiudici/grpc-go/internal/syscall"
+	"github.com/fgiudici/grpc-go/keepalive"
 )
 
 // TestMaxConnectionIdle tests that a server will send GoAway to an idle

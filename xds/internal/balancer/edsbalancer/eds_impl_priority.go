@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"time"
 
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/balancer/base"
-	"google.golang.org/grpc/connectivity"
+	"github.com/fgiudici/grpc-go/balancer"
+	"github.com/fgiudici/grpc-go/balancer/base"
+	"github.com/fgiudici/grpc-go/connectivity"
 )
 
 var errAllPrioritiesRemoved = errors.New("eds: no locality is provided, all priorities are removed")

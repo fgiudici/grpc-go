@@ -22,10 +22,10 @@ import (
 	"fmt"
 	"strings"
 
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/internal/grpcrand"
-	"google.golang.org/grpc/internal/grpcutil"
-	"google.golang.org/grpc/metadata"
+	"github.com/fgiudici/grpc-go/balancer"
+	"github.com/fgiudici/grpc-go/internal/grpcrand"
+	"github.com/fgiudici/grpc-go/internal/grpcutil"
+	"github.com/fgiudici/grpc-go/metadata"
 )
 
 // compositeMatcher.match returns true if all matchers return true.

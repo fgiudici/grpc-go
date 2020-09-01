@@ -36,10 +36,10 @@ import (
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/hpack"
 	spb "google.golang.org/genproto/googleapis/rpc/status"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/internal/grpcutil"
-	"google.golang.org/grpc/status"
+	"github.com/fgiudici/grpc-go/codes"
+	"github.com/fgiudici/grpc-go/grpclog"
+	"github.com/fgiudici/grpc-go/internal/grpcutil"
+	"github.com/fgiudici/grpc-go/status"
 )
 
 const (

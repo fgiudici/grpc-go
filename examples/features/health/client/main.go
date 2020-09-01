@@ -26,11 +26,11 @@ import (
 	"log"
 	"time"
 
-	"google.golang.org/grpc"
-	pb "google.golang.org/grpc/examples/features/proto/echo"
-	_ "google.golang.org/grpc/health"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/resolver/manual"
+	"github.com/fgiudici/grpc-go"
+	pb "github.com/fgiudici/grpc-go/examples/features/proto/echo"
+	_ "github.com/fgiudici/grpc-go/health"
+	"github.com/fgiudici/grpc-go/resolver"
+	"github.com/fgiudici/grpc-go/resolver/manual"
 )
 
 var serviceConfig = `{

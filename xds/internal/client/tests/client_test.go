@@ -21,13 +21,13 @@ package tests
 import (
 	"testing"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/internal/grpctest"
-	xdsclient "google.golang.org/grpc/xds/internal/client"
-	"google.golang.org/grpc/xds/internal/client/bootstrap"
-	_ "google.golang.org/grpc/xds/internal/client/v2" // Register the v2 API client.
-	"google.golang.org/grpc/xds/internal/testutils"
-	"google.golang.org/grpc/xds/internal/version"
+	"github.com/fgiudici/grpc-go"
+	"github.com/fgiudici/grpc-go/internal/grpctest"
+	xdsclient "github.com/fgiudici/grpc-go/xds/internal/client"
+	"github.com/fgiudici/grpc-go/xds/internal/client/bootstrap"
+	_ "github.com/fgiudici/grpc-go/xds/internal/client/v2" // Register the v2 API client.
+	"github.com/fgiudici/grpc-go/xds/internal/testutils"
+	"github.com/fgiudici/grpc-go/xds/internal/version"
 )
 
 type s struct {

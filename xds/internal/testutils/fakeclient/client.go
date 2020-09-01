@@ -23,9 +23,9 @@ import (
 	"context"
 	"sync"
 
-	"google.golang.org/grpc/internal/testutils"
-	"google.golang.org/grpc/xds/internal/balancer/lrs"
-	xdsclient "google.golang.org/grpc/xds/internal/client"
+	"github.com/fgiudici/grpc-go/internal/testutils"
+	"github.com/fgiudici/grpc-go/xds/internal/balancer/lrs"
+	xdsclient "github.com/fgiudici/grpc-go/xds/internal/client"
 )
 
 // Client is a fake implementation of an xds client. It exposes a bunch of

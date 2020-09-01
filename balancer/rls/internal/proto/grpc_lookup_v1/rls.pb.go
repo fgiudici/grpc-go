@@ -7,9 +7,9 @@ import (
 	context "context"
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
-	grpc "google.golang.org/grpc"
-	codes "google.golang.org/grpc/codes"
-	status "google.golang.org/grpc/status"
+	grpc "github.com/fgiudici/grpc-go"
+	codes "github.com/fgiudici/grpc-go/codes"
+	status "github.com/fgiudici/grpc-go/status"
 	math "math"
 )
 
@@ -191,7 +191,7 @@ const _ = grpc.SupportPackageIsVersion6
 
 // RouteLookupServiceClient is the client API for RouteLookupService service.
 //
-// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/google.golang.org/grpc#ClientConn.NewStream.
+// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/github.com/fgiudici/grpc-go#ClientConn.NewStream.
 type RouteLookupServiceClient interface {
 	// Lookup returns a target for a single key.
 	RouteLookup(ctx context.Context, in *RouteLookupRequest, opts ...grpc.CallOption) (*RouteLookupResponse, error)

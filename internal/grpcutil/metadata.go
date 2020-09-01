@@ -21,7 +21,7 @@ package grpcutil
 import (
 	"context"
 
-	"google.golang.org/grpc/metadata"
+	"github.com/fgiudici/grpc-go/metadata"
 )
 
 type mdExtraKey struct{}

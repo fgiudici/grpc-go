@@ -29,7 +29,7 @@ import (
 	anypb "github.com/golang/protobuf/ptypes/any"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"google.golang.org/grpc/xds/internal/version"
+	"github.com/fgiudici/grpc-go/xds/internal/version"
 )
 
 func (s) TestValidateCluster(t *testing.T) {

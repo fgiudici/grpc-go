@@ -8,9 +8,9 @@ import (
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
 	duration "github.com/golang/protobuf/ptypes/duration"
-	grpc "google.golang.org/grpc"
-	codes "google.golang.org/grpc/codes"
-	status "google.golang.org/grpc/status"
+	grpc "github.com/fgiudici/grpc-go"
+	codes "github.com/fgiudici/grpc-go/codes"
+	status "github.com/fgiudici/grpc-go/status"
 	math "math"
 )
 
@@ -168,7 +168,7 @@ const _ = grpc.SupportPackageIsVersion6
 
 // MeshCertificateServiceClient is the client API for MeshCertificateService service.
 //
-// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/google.golang.org/grpc#ClientConn.NewStream.
+// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/github.com/fgiudici/grpc-go#ClientConn.NewStream.
 type MeshCertificateServiceClient interface {
 	// Using provided CSR, returns a signed certificate that represents a GCP
 	// service account identity.

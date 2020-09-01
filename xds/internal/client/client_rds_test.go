@@ -33,7 +33,7 @@ import (
 	wrapperspb "github.com/golang/protobuf/ptypes/wrappers"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"google.golang.org/grpc/xds/internal/version"
+	"github.com/fgiudici/grpc-go/xds/internal/version"
 )
 
 func (s) TestGetRouteConfigFromListener(t *testing.T) {

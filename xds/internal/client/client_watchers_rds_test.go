@@ -23,7 +23,7 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/grpc/internal/testutils"
+	"github.com/fgiudici/grpc-go/internal/testutils"
 )
 
 type rdsUpdateErr struct {

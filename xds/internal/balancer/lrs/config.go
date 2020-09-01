@@ -22,9 +22,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	internalserviceconfig "google.golang.org/grpc/internal/serviceconfig"
-	"google.golang.org/grpc/serviceconfig"
-	"google.golang.org/grpc/xds/internal"
+	internalserviceconfig "github.com/fgiudici/grpc-go/internal/serviceconfig"
+	"github.com/fgiudici/grpc-go/serviceconfig"
+	"github.com/fgiudici/grpc-go/xds/internal"
 )
 
 type lbConfig struct {

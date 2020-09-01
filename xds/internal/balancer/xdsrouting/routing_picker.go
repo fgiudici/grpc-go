@@ -19,10 +19,10 @@
 package xdsrouting
 
 import (
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/status"
-	"google.golang.org/grpc/xds/internal"
+	"github.com/fgiudici/grpc-go/balancer"
+	"github.com/fgiudici/grpc-go/codes"
+	"github.com/fgiudici/grpc-go/status"
+	"github.com/fgiudici/grpc-go/xds/internal"
 )
 
 // pickerGroup contains a list of route matchers and their corresponding

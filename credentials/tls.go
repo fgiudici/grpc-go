@@ -27,7 +27,7 @@ import (
 	"net"
 	"net/url"
 
-	credinternal "google.golang.org/grpc/internal/credentials"
+	credinternal "github.com/fgiudici/grpc-go/internal/credentials"
 )
 
 // TLSInfo contains the auth information for a TLS authenticated connection.

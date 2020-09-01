@@ -7,9 +7,9 @@ import (
 	context "context"
 	fmt "fmt"
 	proto "github.com/golang/protobuf/proto"
-	grpc "google.golang.org/grpc"
-	codes "google.golang.org/grpc/codes"
-	status "google.golang.org/grpc/status"
+	grpc "github.com/fgiudici/grpc-go"
+	codes "github.com/fgiudici/grpc-go/codes"
+	status "github.com/fgiudici/grpc-go/status"
 	math "math"
 )
 
@@ -647,7 +647,7 @@ const _ = grpc.SupportPackageIsVersion6
 
 // ServerReflectionClient is the client API for ServerReflection service.
 //
-// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/google.golang.org/grpc#ClientConn.NewStream.
+// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/github.com/fgiudici/grpc-go#ClientConn.NewStream.
 type ServerReflectionClient interface {
 	// The reflection service is structured as a bidirectional stream, ensuring
 	// all related requests go to a single server.

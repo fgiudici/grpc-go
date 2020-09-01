@@ -24,14 +24,14 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/grpc/attributes"
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/balancer/roundrobin"
-	"google.golang.org/grpc/connectivity"
-	internalserviceconfig "google.golang.org/grpc/internal/serviceconfig"
-	"google.golang.org/grpc/resolver"
-	xdsinternal "google.golang.org/grpc/xds/internal"
-	"google.golang.org/grpc/xds/internal/testutils"
+	"github.com/fgiudici/grpc-go/attributes"
+	"github.com/fgiudici/grpc-go/balancer"
+	"github.com/fgiudici/grpc-go/balancer/roundrobin"
+	"github.com/fgiudici/grpc-go/connectivity"
+	internalserviceconfig "github.com/fgiudici/grpc-go/internal/serviceconfig"
+	"github.com/fgiudici/grpc-go/resolver"
+	xdsinternal "github.com/fgiudici/grpc-go/xds/internal"
+	"github.com/fgiudici/grpc-go/xds/internal/testutils"
 )
 
 var (

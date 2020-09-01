@@ -32,11 +32,11 @@ import (
 	"strconv"
 	"time"
 
-	"google.golang.org/grpc"
-	testpb "google.golang.org/grpc/benchmark/grpc_testing"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/status"
+	"github.com/fgiudici/grpc-go"
+	testpb "github.com/fgiudici/grpc-go/benchmark/grpc_testing"
+	"github.com/fgiudici/grpc-go/codes"
+	"github.com/fgiudici/grpc-go/grpclog"
+	"github.com/fgiudici/grpc-go/status"
 )
 
 var (

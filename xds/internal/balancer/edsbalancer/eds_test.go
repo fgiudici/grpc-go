@@ -30,22 +30,22 @@ import (
 	"github.com/golang/protobuf/jsonpb"
 	wrapperspb "github.com/golang/protobuf/ptypes/wrappers"
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/internal/grpclog"
-	"google.golang.org/grpc/internal/grpctest"
-	scpb "google.golang.org/grpc/internal/proto/grpc_service_config"
-	"google.golang.org/grpc/internal/testutils"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/serviceconfig"
-	"google.golang.org/grpc/xds/internal/balancer/lrs"
-	xdsclient "google.golang.org/grpc/xds/internal/client"
-	"google.golang.org/grpc/xds/internal/client/bootstrap"
-	xdstestutils "google.golang.org/grpc/xds/internal/testutils"
-	"google.golang.org/grpc/xds/internal/testutils/fakeclient"
+	"github.com/fgiudici/grpc-go"
+	"github.com/fgiudici/grpc-go/balancer"
+	"github.com/fgiudici/grpc-go/connectivity"
+	"github.com/fgiudici/grpc-go/internal/grpclog"
+	"github.com/fgiudici/grpc-go/internal/grpctest"
+	scpb "github.com/fgiudici/grpc-go/internal/proto/grpc_service_config"
+	"github.com/fgiudici/grpc-go/internal/testutils"
+	"github.com/fgiudici/grpc-go/resolver"
+	"github.com/fgiudici/grpc-go/serviceconfig"
+	"github.com/fgiudici/grpc-go/xds/internal/balancer/lrs"
+	xdsclient "github.com/fgiudici/grpc-go/xds/internal/client"
+	"github.com/fgiudici/grpc-go/xds/internal/client/bootstrap"
+	xdstestutils "github.com/fgiudici/grpc-go/xds/internal/testutils"
+	"github.com/fgiudici/grpc-go/xds/internal/testutils/fakeclient"
 
-	_ "google.golang.org/grpc/xds/internal/client/v2" // V2 client registration.
+	_ "github.com/fgiudici/grpc-go/xds/internal/client/v2" // V2 client registration.
 )
 
 const defaultTestTimeout = 1 * time.Second

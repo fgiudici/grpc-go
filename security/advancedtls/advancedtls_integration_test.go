@@ -28,10 +28,10 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials"
-	pb "google.golang.org/grpc/examples/helloworld/helloworld"
-	"google.golang.org/grpc/security/advancedtls/testdata"
+	"github.com/fgiudici/grpc-go"
+	"github.com/fgiudici/grpc-go/credentials"
+	pb "github.com/fgiudici/grpc-go/examples/helloworld/helloworld"
+	"github.com/fgiudici/grpc-go/security/advancedtls/testdata"
 )
 
 var (

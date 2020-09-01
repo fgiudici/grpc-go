@@ -34,8 +34,8 @@ import (
 	"github.com/golang/protobuf/proto"
 	anypb "github.com/golang/protobuf/ptypes/any"
 
-	"google.golang.org/grpc/internal/grpclog"
-	"google.golang.org/grpc/xds/internal"
+	"github.com/fgiudici/grpc-go/internal/grpclog"
+	"github.com/fgiudici/grpc-go/xds/internal"
 )
 
 // UnmarshalListener processes resources received in an LDS response, validates

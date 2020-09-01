@@ -25,15 +25,15 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/grpc/attributes"
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/balancer/roundrobin"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/internal/hierarchy"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/serviceconfig"
-	"google.golang.org/grpc/xds/internal/balancer/balancergroup"
-	"google.golang.org/grpc/xds/internal/testutils"
+	"github.com/fgiudici/grpc-go/attributes"
+	"github.com/fgiudici/grpc-go/balancer"
+	"github.com/fgiudici/grpc-go/balancer/roundrobin"
+	"github.com/fgiudici/grpc-go/connectivity"
+	"github.com/fgiudici/grpc-go/internal/hierarchy"
+	"github.com/fgiudici/grpc-go/resolver"
+	"github.com/fgiudici/grpc-go/serviceconfig"
+	"github.com/fgiudici/grpc-go/xds/internal/balancer/balancergroup"
+	"github.com/fgiudici/grpc-go/xds/internal/testutils"
 )
 
 type testConfigBalancerBuilder struct {

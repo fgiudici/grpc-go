@@ -22,9 +22,9 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/grpc/balancer/roundrobin"
-	internalserviceconfig "google.golang.org/grpc/internal/serviceconfig"
-	xdsinternal "google.golang.org/grpc/xds/internal"
+	"github.com/fgiudici/grpc-go/balancer/roundrobin"
+	internalserviceconfig "github.com/fgiudici/grpc-go/internal/serviceconfig"
+	xdsinternal "github.com/fgiudici/grpc-go/xds/internal"
 )
 
 const (

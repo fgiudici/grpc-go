@@ -22,8 +22,8 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/grpc/attributes"
-	"google.golang.org/grpc/resolver"
+	"github.com/fgiudici/grpc-go/attributes"
+	"github.com/fgiudici/grpc-go/resolver"
 )
 
 func TestAddrInfoToAndFromAttributes(t *testing.T) {

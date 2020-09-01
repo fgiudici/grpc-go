@@ -28,9 +28,9 @@ import (
 	"github.com/golang/protobuf/proto"
 	structpb "github.com/golang/protobuf/ptypes/struct"
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/credentials/google"
-	"google.golang.org/grpc/xds/internal/version"
+	"github.com/fgiudici/grpc-go"
+	"github.com/fgiudici/grpc-go/credentials/google"
+	"github.com/fgiudici/grpc-go/xds/internal/version"
 )
 
 var (

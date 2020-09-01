@@ -3,9 +3,9 @@
 package grpc_reflection_v1alpha
 
 import (
-	grpc "google.golang.org/grpc"
-	codes "google.golang.org/grpc/codes"
-	status "google.golang.org/grpc/status"
+	grpc "github.com/fgiudici/grpc-go"
+	codes "github.com/fgiudici/grpc-go/codes"
+	status "github.com/fgiudici/grpc-go/status"
 )
 
 // This is a compile-time assertion to ensure that this generated file

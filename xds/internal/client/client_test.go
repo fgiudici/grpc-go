@@ -23,12 +23,12 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/internal/grpctest"
-	"google.golang.org/grpc/internal/testutils"
-	"google.golang.org/grpc/xds/internal/client/bootstrap"
-	xdstestutils "google.golang.org/grpc/xds/internal/testutils"
-	"google.golang.org/grpc/xds/internal/version"
+	"github.com/fgiudici/grpc-go"
+	"github.com/fgiudici/grpc-go/internal/grpctest"
+	"github.com/fgiudici/grpc-go/internal/testutils"
+	"github.com/fgiudici/grpc-go/xds/internal/client/bootstrap"
+	xdstestutils "github.com/fgiudici/grpc-go/xds/internal/testutils"
+	"github.com/fgiudici/grpc-go/xds/internal/version"
 )
 
 type s struct {

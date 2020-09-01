@@ -22,10 +22,10 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/xds/internal"
-	"google.golang.org/grpc/xds/internal/testutils"
+	"github.com/fgiudici/grpc-go/balancer"
+	"github.com/fgiudici/grpc-go/connectivity"
+	"github.com/fgiudici/grpc-go/xds/internal"
+	"github.com/fgiudici/grpc-go/xds/internal/testutils"
 )
 
 var (

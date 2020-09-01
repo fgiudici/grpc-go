@@ -26,10 +26,10 @@ import (
 	"log"
 	"net"
 
-	"google.golang.org/grpc"
-	_ "google.golang.org/grpc/encoding/gzip" // Install the gzip compressor
+	"github.com/fgiudici/grpc-go"
+	_ "github.com/fgiudici/grpc-go/encoding/gzip" // Install the gzip compressor
 
-	pb "google.golang.org/grpc/examples/features/proto/echo"
+	pb "github.com/fgiudici/grpc-go/examples/features/proto/echo"
 )
 
 var port = flag.Int("port", 50051, "the port to serve on")

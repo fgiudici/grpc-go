@@ -22,10 +22,10 @@ import (
 	"errors"
 	"time"
 
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/balancer/rls/internal/cache"
-	"google.golang.org/grpc/balancer/rls/internal/keys"
-	"google.golang.org/grpc/metadata"
+	"github.com/fgiudici/grpc-go/balancer"
+	"github.com/fgiudici/grpc-go/balancer/rls/internal/cache"
+	"github.com/fgiudici/grpc-go/balancer/rls/internal/keys"
+	"github.com/fgiudici/grpc-go/metadata"
 )
 
 var errRLSThrottled = errors.New("RLS call throttled at client side")

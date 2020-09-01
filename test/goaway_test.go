@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/keepalive"
-	testpb "google.golang.org/grpc/test/grpc_testing"
+	"github.com/fgiudici/grpc-go"
+	"github.com/fgiudici/grpc-go/keepalive"
+	testpb "github.com/fgiudici/grpc-go/test/grpc_testing"
 )
 
 // TestGracefulClientOnGoAway attempts to ensure that when the server sends a

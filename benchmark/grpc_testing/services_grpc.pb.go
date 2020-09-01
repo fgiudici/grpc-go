@@ -4,9 +4,9 @@ package grpc_testing
 
 import (
 	context "context"
-	grpc "google.golang.org/grpc"
-	codes "google.golang.org/grpc/codes"
-	status "google.golang.org/grpc/status"
+	grpc "github.com/fgiudici/grpc-go"
+	codes "github.com/fgiudici/grpc-go/codes"
+	status "github.com/fgiudici/grpc-go/status"
 )
 
 // This is a compile-time assertion to ensure that this generated file
@@ -15,7 +15,7 @@ const _ = grpc.SupportPackageIsVersion7
 
 // BenchmarkServiceClient is the client API for BenchmarkService service.
 //
-// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://pkg.go.dev/google.golang.org/grpc/?tab=doc#ClientConn.NewStream.
+// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://pkg.go.dev/github.com/fgiudici/grpc-go/?tab=doc#ClientConn.NewStream.
 type BenchmarkServiceClient interface {
 	// One request followed by one response.
 	// The server returns the client payload as-is.
@@ -297,7 +297,7 @@ type UnstableBenchmarkServiceService interface {
 
 // WorkerServiceClient is the client API for WorkerService service.
 //
-// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://pkg.go.dev/google.golang.org/grpc/?tab=doc#ClientConn.NewStream.
+// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://pkg.go.dev/github.com/fgiudici/grpc-go/?tab=doc#ClientConn.NewStream.
 type WorkerServiceClient interface {
 	// Start server with specified workload.
 	// First request sent specifies the ServerConfig followed by ServerStatus

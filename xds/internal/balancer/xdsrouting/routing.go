@@ -23,13 +23,13 @@ import (
 	"fmt"
 	"regexp"
 
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/internal/grpclog"
-	"google.golang.org/grpc/internal/hierarchy"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/serviceconfig"
-	"google.golang.org/grpc/xds/internal"
-	"google.golang.org/grpc/xds/internal/balancer/balancergroup"
+	"github.com/fgiudici/grpc-go/balancer"
+	"github.com/fgiudici/grpc-go/internal/grpclog"
+	"github.com/fgiudici/grpc-go/internal/hierarchy"
+	"github.com/fgiudici/grpc-go/resolver"
+	"github.com/fgiudici/grpc-go/serviceconfig"
+	"github.com/fgiudici/grpc-go/xds/internal"
+	"github.com/fgiudici/grpc-go/xds/internal/balancer/balancergroup"
 )
 
 const xdsRoutingName = "xds_routing_experimental"

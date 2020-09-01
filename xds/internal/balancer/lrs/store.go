@@ -27,9 +27,9 @@ import (
 	lrsgrpc "github.com/envoyproxy/go-control-plane/envoy/service/load_stats/v2"
 	lrspb "github.com/envoyproxy/go-control-plane/envoy/service/load_stats/v2"
 	"github.com/golang/protobuf/ptypes"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/internal/backoff"
-	"google.golang.org/grpc/xds/internal"
+	"github.com/fgiudici/grpc-go"
+	"github.com/fgiudici/grpc-go/internal/backoff"
+	"github.com/fgiudici/grpc-go/xds/internal"
 )
 
 const negativeOneUInt64 = ^uint64(0)

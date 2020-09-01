@@ -29,12 +29,12 @@ import (
 	"fmt"
 	"sync"
 
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/balancer/base"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/internal/grpclog"
-	"google.golang.org/grpc/internal/wrr"
-	"google.golang.org/grpc/xds/internal"
+	"github.com/fgiudici/grpc-go/balancer"
+	"github.com/fgiudici/grpc-go/balancer/base"
+	"github.com/fgiudici/grpc-go/connectivity"
+	"github.com/fgiudici/grpc-go/internal/grpclog"
+	"github.com/fgiudici/grpc-go/internal/wrr"
+	"github.com/fgiudici/grpc-go/xds/internal"
 )
 
 type weightedPickerState struct {

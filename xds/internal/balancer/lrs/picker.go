@@ -20,8 +20,8 @@ package lrs
 
 import (
 	orcapb "github.com/cncf/udpa/go/udpa/data/orca/v1"
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/xds/internal"
+	"github.com/fgiudici/grpc-go/balancer"
+	"github.com/fgiudici/grpc-go/xds/internal"
 )
 
 const (

@@ -27,9 +27,9 @@ import (
 	"log"
 	"time"
 
-	"google.golang.org/grpc"
-	pb "google.golang.org/grpc/examples/features/proto/echo"
-	"google.golang.org/grpc/metadata"
+	"github.com/fgiudici/grpc-go"
+	pb "github.com/fgiudici/grpc-go/examples/features/proto/echo"
+	"github.com/fgiudici/grpc-go/metadata"
 )
 
 var addr = flag.String("addr", "localhost:50051", "the address to connect to")

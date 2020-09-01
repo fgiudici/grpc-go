@@ -25,10 +25,10 @@ import (
 	"sync"
 
 	"github.com/golang/protobuf/proto"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/internal/grpclog"
-	xdsclient "google.golang.org/grpc/xds/internal/client"
-	"google.golang.org/grpc/xds/internal/version"
+	"github.com/fgiudici/grpc-go"
+	"github.com/fgiudici/grpc-go/internal/grpclog"
+	xdsclient "github.com/fgiudici/grpc-go/xds/internal/client"
+	"github.com/fgiudici/grpc-go/xds/internal/version"
 
 	v3corepb "github.com/envoyproxy/go-control-plane/envoy/config/core/v3"
 	v3adsgrpc "github.com/envoyproxy/go-control-plane/envoy/service/discovery/v3"

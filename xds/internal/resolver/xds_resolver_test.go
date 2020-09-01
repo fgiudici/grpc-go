@@ -27,19 +27,19 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/internal"
-	"google.golang.org/grpc/internal/grpcrand"
-	"google.golang.org/grpc/internal/testutils"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/serviceconfig"
-	xdsinternal "google.golang.org/grpc/xds/internal"
-	_ "google.golang.org/grpc/xds/internal/balancer/cdsbalancer" // To parse LB config
-	"google.golang.org/grpc/xds/internal/client"
-	xdsclient "google.golang.org/grpc/xds/internal/client"
-	"google.golang.org/grpc/xds/internal/client/bootstrap"
-	xdstestutils "google.golang.org/grpc/xds/internal/testutils"
-	"google.golang.org/grpc/xds/internal/testutils/fakeclient"
+	"github.com/fgiudici/grpc-go"
+	"github.com/fgiudici/grpc-go/internal"
+	"github.com/fgiudici/grpc-go/internal/grpcrand"
+	"github.com/fgiudici/grpc-go/internal/testutils"
+	"github.com/fgiudici/grpc-go/resolver"
+	"github.com/fgiudici/grpc-go/serviceconfig"
+	xdsinternal "github.com/fgiudici/grpc-go/xds/internal"
+	_ "github.com/fgiudici/grpc-go/xds/internal/balancer/cdsbalancer" // To parse LB config
+	"github.com/fgiudici/grpc-go/xds/internal/client"
+	xdsclient "github.com/fgiudici/grpc-go/xds/internal/client"
+	"github.com/fgiudici/grpc-go/xds/internal/client/bootstrap"
+	xdstestutils "github.com/fgiudici/grpc-go/xds/internal/testutils"
+	"github.com/fgiudici/grpc-go/xds/internal/testutils/fakeclient"
 )
 
 const (

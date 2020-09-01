@@ -23,9 +23,9 @@ import (
 	"fmt"
 
 	wrapperspb "github.com/golang/protobuf/ptypes/wrappers"
-	internalserviceconfig "google.golang.org/grpc/internal/serviceconfig"
-	"google.golang.org/grpc/serviceconfig"
-	xdsclient "google.golang.org/grpc/xds/internal/client"
+	internalserviceconfig "github.com/fgiudici/grpc-go/internal/serviceconfig"
+	"github.com/fgiudici/grpc-go/serviceconfig"
+	xdsclient "github.com/fgiudici/grpc-go/xds/internal/client"
 )
 
 type actionConfig struct {

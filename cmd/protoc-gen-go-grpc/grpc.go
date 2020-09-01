@@ -30,9 +30,9 @@ import (
 
 const (
 	contextPackage = protogen.GoImportPath("context")
-	grpcPackage    = protogen.GoImportPath("google.golang.org/grpc")
-	codesPackage   = protogen.GoImportPath("google.golang.org/grpc/codes")
-	statusPackage  = protogen.GoImportPath("google.golang.org/grpc/status")
+	grpcPackage    = protogen.GoImportPath("github.com/fgiudici/grpc-go")
+	codesPackage   = protogen.GoImportPath("github.com/fgiudici/grpc-go/codes")
+	statusPackage  = protogen.GoImportPath("github.com/fgiudici/grpc-go/status")
 )
 
 // generateFile generates a _grpc.pb.go file containing gRPC service definitions.
@@ -75,7 +75,7 @@ func genClient(gen *protogen.Plugin, file *protogen.File, g *protogen.GeneratedF
 
 	g.P("// ", clientName, " is the client API for ", service.GoName, " service.")
 	g.P("//")
-	g.P("// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://pkg.go.dev/google.golang.org/grpc/?tab=doc#ClientConn.NewStream.")
+	g.P("// For semantics around ctx use and closing/ending streaming RPCs, please refer to https://pkg.go.dev/github.com/fgiudici/grpc-go/?tab=doc#ClientConn.NewStream.")
 
 	// Client interface.
 	if service.Desc.Options().(*descriptorpb.ServiceOptions).GetDeprecated() {

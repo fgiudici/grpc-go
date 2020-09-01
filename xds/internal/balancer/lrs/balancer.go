@@ -23,12 +23,12 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"google.golang.org/grpc/attributes"
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/internal/grpclog"
-	"google.golang.org/grpc/serviceconfig"
-	"google.golang.org/grpc/xds/internal"
-	xdsinternal "google.golang.org/grpc/xds/internal"
+	"github.com/fgiudici/grpc-go/attributes"
+	"github.com/fgiudici/grpc-go/balancer"
+	"github.com/fgiudici/grpc-go/internal/grpclog"
+	"github.com/fgiudici/grpc-go/serviceconfig"
+	"github.com/fgiudici/grpc-go/xds/internal"
+	xdsinternal "github.com/fgiudici/grpc-go/xds/internal"
 )
 
 func init() {
