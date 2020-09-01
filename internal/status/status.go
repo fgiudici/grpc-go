@@ -31,10 +31,10 @@ import (
 	"errors"
 	"fmt"
 
+	spb "github.com/fgiudici/go-genproto/googleapis/rpc/status"
+	"github.com/fgiudici/grpc-go/codes"
 	"github.com/golang/protobuf/proto"
 	"github.com/golang/protobuf/ptypes"
-	spb "google.golang.org/genproto/googleapis/rpc/status"
-	"github.com/fgiudici/grpc-go/codes"
 )
 
 // Status represents an RPC status code, message, and details.  It is immutable
